@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About N.Flying</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/firststyle.css">
+
+  <style>
+    ul  
+    {
+      list-style-type: none;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+      padding: 40px, 40px;
+      height: 5%;
+      width: 90%;
+      text-align: center;
+      font-family: Courier New;
+      background-color: black;
+    }
+
+    li a 
+    {
+      float: left;
+      display: ruby-base-container;
+      padding: 30px;
+      text-decoration: none;
+      color: ivory;
+      text-align: center;
+    }
+
+    li a:hover
+    {
+      background-color: tomato;
+    }
+
+    * {box-sizing: border-box}
+
+    body
+    {
+      background-color: red;
+    }
+
+    .mySlides {display: none;}
+
+    img
+      {
+        border: 5px solid darkgray;
+      }
+
+    div
+      {
+        background-color: lightsalmon; 50%;
+      }
+    
+    h1
+    {
+      font-family: Georgia;
+      font: bold;
+      text-align: center;
+    }
+
+    h2
+    {
+      font-family: Georgia;
+      font: bold;
+    }
+
+    p
+    {
+      font-family: Tahoma;
+      font: bold;
+    }
+
+    .container
+    {
+      position: relative;
+      width: 50%;
+    }
+
+   
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <ul>
+    <li><a href="indexgroup1.html" target="blank">Home</a></li>
+    <li><a href="FNC_ENTERTAINMENT.html" target="blank">FNC Entertainment</a></li>
+    <li><a href="about_nflying.html" target="blank">About</a></li>
+    <li><a href="members_nflying.html" target="blank">The Members</a></li>
+    <li><a href="album_nflying.html" target="blank">Albums</a></li>
+    <li><a href="achievements_nflying.html" target="blank">Achievements</a></li>
+  </ul>
+
+  <h1 style>N.FLYING GROUP PROFILE</h1>
+
+  <div class="w3-content w3-display-container">
+    <img class="mySlides" src="images/NFLYING_8MAD2.jpg" style="width:100%; height: 450px;">
+    <img class="mySlides" src="images/NFLYING_1ART.jpg" style="width:100%; height: 450px">
+    <img class="mySlides" src="images/NFLYING_1AMOTM1.jpg" style="width:100%; height: 450px">
+    <img class="mySlides" src="images/NFLYING_FHPR2.jpg" style="width:100%; height: 450px">
+    <img class="mySlides" src="images/NFLYING_FHPR1.jpg" style="width:100%; height: 450px">
+    <img class="mySlides" src="images/NFLYING_FHPLAF1.jpg" style="width:100%; height: 450px">
+    <img class="mySlides" src="images/NFLYING_4MAHAYT.jpg" style="width:100%; height: 450px">
+    <img class="mySlides" src="images/NFLYING_KMAHP1.jpg" style="width:100%; height: 450px">
+    <img class="mySlides" src="images/NFLYING_2MATR1.jpg" style="width:100%; height: 450px">
+    <img class="mySlides" src="images/NFLYING_1SAL1.jpg" style="width:100%; height: 450px">
+    <img class="mySlides" src="images/NFLYING_D1MAA.jpg" style="width:100%; height: 450px;">
+
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+  </script>
+
+  <div><h2 style="text-align: center;"> About N.Flying</h2>
+    <p>N.Flying (Korean: 엔플라잉, Japanese: エヌフライング; short for New Flying which also means 'new wings' or 'new escape') is a South Korean rap rock band formed by FNC Entertainment in 2013. The group released its first digital indie single "Basket" in Japan on October 1, 2013. The group marked its debut in Korea on May 20, 2015, with its first EP, including lead single 'Awesome'. The band originally consisted of four members: Kwon Kwang-jin, Lee Seung-hyub, Cha Hun and Kim Jae-hyun. Yoo Hwe-seung was added to the band in June 2017. Kwang-jin left the group on December 26, 2018, and his position was filled by Seo Dong-sung on January 1, 2020.</p> 
+    <p>The fandom (name of the fanclub) of N.Flying are called N.Fia (a combination of the words “N.Flying” and “Utopia”.) It means “Let’s fly to utopia together.” Next, N.Flying Fan Color is Red</p>
+  </div>
+
+  <div><h2 style="text-align: center;">The History of N.Flying</h2>
+    <p><a href="https://en.wikipedia.org/wiki/N.Flying#Pre-debut">Pre-debut</a></p>
+    <p><a href="https://en.wikipedia.org/wiki/N.Flying#2013%E2%80%932014:_Japanese_debut_with_Basket,_One_and_Only_and_delayed_debut_in_Korea">2013–2014: Japanese debut with Basket, One and Only and delayed debut in Korea</a></p>
+    <p><a href="https://en.wikipedia.org/wiki/N.Flying#2015%E2%80%932016:_Debut_in_Korea_with_Awesome_and_Lonely">2015–2016: Debut in Korea with Awesome and Lonely</a></p>
+    <p><a href="https://en.wikipedia.org/wiki/N.Flying#2017%E2%80%932018:_New_member_Yoo_Hwe-seung,_The_Real:_N.Flying,_The_Hottest,_How_Are_You?,_Fly_High_Project_and_Kwangjin's_departure">2017–2018: New member Yoo Hwe-seung, The Real: N.Flying, The Hottest, How Are You?, Fly High Project and Kwangjin's departure</a></p>
+    <p><a href="https://en.wikipedia.org/wiki/N.Flying#2019:_Breakthrough,_Spring_Memories,_and_Yaho">2019: Breakthrough, Spring Memories, and Yaho</a></p>
+    <p><a href="https://en.wikipedia.org/wiki/N.Flying#2020%E2%80%93present:_New_member_Dong-sung,_So,_Communication,_Man_on_the_Moon,_Turbulence_and_military_service">2020–present: New member Dong-sung, So, Communication, Man on the Moon, Turbulence and military service</a></p>
+  </div>
+
+  <center>
+    <img src="images/NFLYING_LOGO.jpg" style="float: center;" height="150px" width="300px" alt="logo" class="image">
+         
+    <img src="images/NFIA_LOGO.jpg" style="float: center;" height="150px" width="300px" alt="logo" class="image">
+          
+    <img src="images/NFLYING_OFFICIAL_LIGHTSTICK.jpg" style="float: center;" height="150px" width="300px" alt="image of nflying lightstick" class="image">
+  </center><br>
+      
+  <footer>
+      FNC Entertainment - N.FLYING UPDATES@2023 (NADIA)
+  </footer>
+
+</body>
+</html>

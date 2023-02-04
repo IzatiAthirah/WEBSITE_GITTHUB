@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Dorang landing page.">
+    <meta name="author" content="Devcrud">
+    <title>NCT 127</title>
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/dorang.css">
+  
+   <style>
+        hr.solid
+        {
+            border-top: 10px solid grey;
+        }
+    </style>
+
+    <style>
+.discography{padding:0 0 100px;margin:0 auto;background:whitesmoke;}
+.discography ul:after{clear:both;display:block;content:""}
+.discography ul li{float:left}
+.discography ul li img{max-width:100%;width:100%; border: 1px solid #e4e4e4;}
+.discography ul li strong{font-size:15px;font-weight:400;max-height:44px;line-height:22px;color:#191919;margin:19px 0 8px}
+.discography ul li span{display:block;font-size:14px;font-weight:300;color:#999}
+.discography .swiper{max-width:1340px;padding:0 30px;margin:0 auto;overflow:hidden}
+.discography .swiper-slide{flex-shrink:0;width:224px;height:100%;position:relative;transition-property:transform}
+.discography .swiper-wrapper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;box-sizing:content-box}
+.discography .pageNav{text-align:center;padding-top:64px}
+.discography .swiper-pagination{display:inline-block;margin:0}
+.discography .swiper-pagination span{display:inline-block;line-height:11px;vertical-align:top;margin:0 10px;color:#999;cursor:pointer}
+.discography .swiper-pagination span.swiper-pagination-bullet-active{color:#191919}
+.discography .swiper-button-next{display:inline-block;width:7px;height:12px;background:url("../images/svg/paging/btn_right_chevron_b.svg") no-repeat 0 / 100%;margin:0 10px}
+.discography .swiper-button-next.swiper-button-disabled{background:url("../images/svg/paging/btn_right_chevron.svg") no-repeat 0 / 100%;width:7px;font-size:0px;cursor:default}
+.discography .swiper-button-prev{display:inline-block;width:7px;height:12px;background:url("../images/svg/paging/btn_left_chevron_b.svg") no-repeat 0 / 100%;margin:0 10px}
+.discography .swiper-button-prev.swiper-button-disabled{background:url("../images/svg/paging/btn_left_chevron.svg") no-repeat 0 / 100%;width:7px;font-size:0px;cursor:default}
+.discography .preEnd{display:inline-block;background:url("../images/btn-left-chevron-2.png") no-repeat;width:11px;height:12px;font-size:0px;line-height:11px;vertical-align:top;margin:0}
+.discography .preEnd.disabled{background:url("../images/btn-left-chevron-2-disabled.png") no-repeat;cursor:default}
+.discography .nextEnd{display:inline-block;background:url("../images/btn-right-chevron-2.png") no-repeat;width:11px;height:12px;font-size:0px;line-height:11px;vertical-align:top;margin:0}
+.discography .nextEnd.disabled{background:url("../images/btn-right-chevron-2-disabled.png") no-repeat;width:11px;font-size:0px;margin:0;cursor:default}
+    </style>
+
+    <style>
+.artistMember{max-width:1340px;padding:0 30px 48px;margin:0 auto}
+.artistMember h4{border-top:1px solid #bdbdbd; padding-top:74px;}
+.artistMember ul.artistMemberBox{font-size:0; margin-left:-20px; margin-right:-20px; box-sizing: border-box; display: -ms-flex; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; justify-content: center; align-items:flex-start;}
+.artistMember ul.artistMemberBox li.artistMemberList{box-sizing: border-box; position: relative; padding:0 20px 40px; -ms-flex: 0 0 220px; flex:0 0 220px; max-width: 220px;}
+.artistMember ul.artistMemberBox li.artistMemberList img {width:180px; border-radius: 100%;}
+.artistMember ul.artistMemberBox li.artistMemberList:not(.group) ~ li.artistMemberList.group:before {position:absolute;content:"";z-index:5; width:1px; height:50px; background:#cecece;left:0; top:65px}
+.artistMember ul.artistMemberBox li.artistMemberList:not(.group) ~ li.artistMemberList.group ~ li.artistMemberList.group:before {content:none;}
+.artistMember ul.artistMemberBox li span{display:block;font-size:15px;font-weight:400;color:#191919;font-family:'Noto Sans KR';margin:20px 0 12px; text-align: center}
+.artistMember ul.artistMemberBox li ul {margin-left:-7px; margin-right:-7px; box-sizing: border-box; display: -ms-flex; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; justify-content: center;align-items: center;}
+.artistMember ul.artistMemberBox li ul li{box-sizing: border-box; padding:0 3px 8px;}
+.artistMember ul.artistMemberBox li ul li a{display:block;width:30px;height:30px; background-repeat: no-repeat; background-size: 100%;}
+.artistMember ul.artistMemberBox li ul li a.facebook{background-image:url("../images/svg/artist/icon_facebook_g.svg");}
+.artistMember ul.artistMemberBox li ul li a.instagram{background-image:url("../images/svg/artist/icon_instagram_g.svg");}
+.artistMember ul.artistMemberBox li ul li a.youtube{background-image:url("../images/svg/artist/icon_youtube_g.svg");}
+.artistMember ul.artistMemberBox li ul li a.twitter{background-image:url("../images/svg/artist/icon_twitter_g.svg");}
+.artistMember ul.artistMemberBox li ul li a.tiktok{background-image:url("../images/svg/artist/icon_tiktok_g.svg");}
+.artistMember ul.artistMemberBox li ul li a.weibo{background-image:url("../images/svg/artist/icon_weibo_g.svg");}
+.artistMember ul.artistMemberBox li ul li a.officialHome{background-image:url("../images/svg/artist/icon_home_g.svg");}
+    </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="dark-theme">
+    
+    <nav class="page-navbar" data-spy="affix" data-offset-top="10">
+        <ul class="nav-navbar container">
+            <li class="nav-item"><a href="smtown.html" class="nav-link">SMTOWN</a></li>
+            <li class="nav-item"><a href="nctdream.html" target="_blank" class="nav-link">NCT DREAM</a></li>
+            <li class="nav-item"><a href="indexgroup1.html" class="nav-link"><img src="assets/imgs/home_icon.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page"></a></li>
+            <li class="nav-item"><a href="nct127.html" class="nav-link">NCT 127</a></li>
+            <li class="nav-item"><a href="nctwayv.html" target="_blank" class="nav-link">WAYV</a></li>
+
+                </div>
+            </li>nct
+        </ul>
+    </nav>
+
+    <div class="theme-selector">
+        <a href="javascript:void(0)" class="spinner">
+            <i class="ti-paint-bucket"></i>
+        </a>
+        <div class="body">
+            <a href="javascript:void(0)" class="light"></a>
+            <a href="javascript:void(0)" class="dark"></a>
+        </div>
+    </div>  
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <center>
+
+    <hr class="solid">
+    <h4 style=" font-family: Sugar Snow; font-size: 100px; color: #404258; text-shadow: 5px 5px black">NCT 127</h4>
+    <hr class="solid">
+
+    <br>
+    <br>
+
+        <h2>NCT 127 엔시티 127 'Ay-Yo' MV Teaser</h2>
+        <div class="artistDetail subDetail">
+            <div class="artistTop subTop">
+                    <video autoplay controls loop width="1200" height="800" >
+                        <source src="assets/video/nct_127.mp4" type="video/mp4">
+                    </video>
+
+            <br>
+            <br>
+
+            <p style="border: solid; border-color: ghostwhite; background-size: auto; background-color: black;"><br>K-Pop idol group NCT 127 will officially return with their fourth full-length repackage album, Ay-Yo. The music video will also release through the SMTOWN <br>YouTube channel. The title track, “Ay-Yo,” is a hip-hop dance song with a strong drum line and strong vocals. Producer KENZIE participated in the writing <br>and composing of the lyrics, and it is expected to create a special sound with the group once again.<br><br></p>
+
+            <br>
+
+            <div class="artistMember">
+
+            <br>
+            
+            <h4 style="font-size: 50px;">NCT 127 <br>(엔시티)</h4>	
+
+
+    </center>
+
+    <center>
+
+            <div class="artistTop subTop">
+            <div class="left">
+                <img src="assets/imgs/nct_kpop21.jpg" style="width: 510px; height: 350px;border: solid; border-color: ghostwhite;">
+                <img src="assets/imgs/nct_kpop22.jpg" style="width: 510px; height: 350px;border: solid; border-color: ghostwhite;">
+            <div class="right">
+            <div class="subTit ">
+                <span>SM ENTERTAINMENT</span>
+                <div class="titTxt">
+                <div class="right">
+
+                	<br>
+
+                        <div class="txtBox">
+                            <div class='description'><p style=" text-align: center;">NCT 127 (Korean: 엔시티 127; RR: ensiti il-i-chil) is the first fixed and second overall sub-unit of the South Korean boy band NCT, formed and managed by <br>SM Entertainment. The current lineup consists of nine active members: Taeil, Johnny, Taeyong, Yuta, Doyoung, Jaehyun, Jungwoo, Mark, and Haechan.NCT <br>127 are known for their experimental hip hop and R&B-based music and energetic choreographies. After debuting in 2016, they broke into the domestic <br>mainstream in 2017 with "Cherry Bomb", now recognized as one of their signature songs, and received greater international attention following the<br> release of "Kick It" in 2020. NCT 127 have released four studio albums, three of which were reissued, and four extended plays in the Korean language thus far. <br>They have also ventured into the Japanese music scene with the release of a Japanese version of their second single "Limitless", an EP, and a studio album.</p></div>
+                        </div>
+                      <br>
+                    </div>
+                </div>
+            </div>
+         </div>
+        </center>
+
+
+               <div class="artistMember">
+                    <h4 class="subTit1">
+                        
+                        <center>
+                            MEMBERS OF NCT 127
+                        </center>
+
+                <br>
+                <br>
+
+                        
+                    </h4>
+                    <ul class="artistMemberBox">
+                        
+                            <li class="artistMemberList ">
+                                <a href="https://www.smtown.com/artists/10591" target="_blank">
+                                    <img src="assets/imgs/nct_kpop26.jpg">
+                                </a>
+                                <span style="font-family: tahoma; font-size: 20px; color: ghostwhite;">TAEYONG<br>(태용)</span>
+                                <ul class="sns">
+                                    
+                                    
+                                        <li><a href="https://www.instagram.com/taeoxo_nct/" class="instagram" target="_blank">instagram</a></li>
+ 
+                                </ul>
+                            </li>
+                        
+                            <li class="artistMemberList ">
+                                <a href="https://www.smtown.com/artists/10596" target="_blank">
+                                    <img src="assets/imgs/nct_kpop28.jpg">
+                                </a>
+                                <span style="font-family: tahoma; font-size: 20px; color: ghostwhite;">TAEIL<br>(태일)</span>
+                                <ul class="sns">
+                                    
+                                    
+                                        <li><a href="https://www.instagram.com/mo.on_air/" class="instagram" target="_blank">instagram</a></li>
+                                    
+                                </ul>
+                            </li>
+                        
+                            <li class="artistMemberList ">
+                                <a href="https://www.smtown.com/artists/10048" target="_blank">
+                                    <img src="assets/imgs/nct_kpop30.jpg">
+                                </a>
+                                <span style="font-family: tahoma; font-size: 20px; color: ghostwhite;">JOHNNY<br>(쟈니)</span>
+                                <ul class="sns">
+
+                                    <li><a href="https://www.instagram.com/johnnyjsuh/" class="instagram" target="_blank">instagram</a></li>    
+     
+                                </ul>
+                            </li>
+
+                                <li class="artistMemberList ">
+                                <a href="https://www.smtown.com/artists/10592" target="_blank">
+                                    <img src="assets/imgs/nct_kpop24.jpg">
+                                </a>
+                                <span style="font-family: tahoma; font-size: 20px; color: ghostwhite;">MARK<br>(마크)</span>
+                                <ul class="sns">
+                  
+                                        <li><a href="https://www.instagram.com/onyourm__ark/" class="instagram" target="_blank">weibo</a></li>
+   
+                                </ul>
+                            </li>
+                        
+                            </li>
+                        
+                            <li class="artistMemberList ">
+                                <a href="https://www.smtown.com/artists/10590" target="_blank">
+                                    <img src="assets/imgs/nct_kpop23.jpg">
+                                </a>
+                                <span style="font-family: tahoma; font-size: 20px; color: ghostwhite;">DOYOUNG<br>(도영)</span>
+                                <ul class="sns">
+                                    
+                                    
+                                        <li><a href="https://www.instagram.com/do0_nct/" class="instagram" target="_blank">instagram</a></li>
+
+                                </ul>
+                            </li>
+                        
+                            <li class="artistMemberList ">
+                                <a href="https://www.smtown.com/artists/10623" target="_blank">
+                                    <img src="assets/imgs/nct_kpop52.jpg">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                </a>
+                                
+                                <span style="font-family: tahoma; font-size: 20px; color: ghostwhite;">JAEHYUN<br>(재현)</span>
+                                <ul class="sns">
+                  
+                                        <li><a href="https://www.instagram.com/_jeongjaehyun/" class="instagram" target="_blank">instagram</a></li>
+                 
+                                </ul>
+                            </li>
+
+                             <li class="artistMemberList ">
+                                <a href="https://www.smtown.com/artists/10593" target="_blank">
+                                    <img src="assets/imgs/nct_kpop50.jpg">
+                                </a>
+                                <span style="font-family: tahoma; font-size: 20px; color: ghostwhite;">YUTA<br>(유타)</span>
+                                <ul class="sns">
+     
+                                        <li><a href="https://www.instagram.com/yuu_taa_1026/" class="instagram" target="_blank">instagram</a></li>
+
+                                </ul>
+                        
+                            <li class="artistMemberList ">
+                                <a href="https://www.smtown.com/artists/10597" target="_blank">
+                                    <img src="assets/imgs/nct_kpop25.jpg">
+                                </a>
+                                <span style="font-family: tahoma; font-size: 20px; color: ghostwhite;">HAECHAN<br>(해찬)</span>
+                                <ul class="sns">
+
+                                     <li><a href="https://www.instagram.com/haechanahceah/" class="instagram" target="_blank">instagram</a></li>
+                                                                      
+                                </ul>
+                            </li>
+
+                         </li>
+
+                            <li class="artistMemberList ">
+                                <a href="https://www.smtown.com/artists/10641" target="_blank">
+                                    <img src="assets/imgs/nct_kpop51.jpg">
+                                </a>
+                                <span style="font-family: tahoma; font-size: 20px; color: ghostwhite;">JUNGWOO<br>(정우)</span>
+                                <ul class="sns">
+
+                                     <li><a href="https://www.instagram.com/sugaringcandy/" class="instagram" target="_blank">instagram</a></li>
+                                                                      
+                                </ul>
+                          </li>
+                                                                      
+
+                        
+                    </ul>
+                </div>
+
+            <center>
+                <div class="discography">
+                    <br>
+                    <br>
+                    <h4 style="font-family: sugar snow; color: black; font-size: 50px; ">DISCOGRAPHY</h4>
+                    <br>
+                    <div class="swiper mySwiper">
+                        <ul class="swiper-wrapper">
+                            
+                                 <li class="swiper-slide">
+                                    <div>
+                                        <a href="https://www.smtown.com/production/album/11760" target="_blank">
+                                            <img src="https://smtown-cdn.smtown.com/upload/album/e1a79b9c16aa40fd9509c7fa8b7b918d_2023-01-30-09-03-33.jpg" alt="img"/>
+                                        </a>
+
+                                        <br>
+                                        <br>
+
+                                        <span>2023/01/30</span>
+
+                                        <br>
+
+                                        <strong class="ell2">NCT 127 The 4th <br>Repackage Album <br>‘Ay-Yo’</strong>
+                                        
+                                    </div>
+                                </li>
+                            
+                                <li class="swiper-slide">
+                                    <div>
+                                        <a href="https://www.smtown.com/production/album/11735" target="_blank">
+                                            <img src="https://smtown-cdn.smtown.com/upload/album/a51abc0be4aa4800baedd86870833960_2022-09-16-08-12-39.jpg" alt="img"/>
+                                        </a>
+
+                                        <br>
+                                        <br>
+
+                                        <span>2022/09/16</span>
+
+                                        <br>
+
+                                        <strong class="ell2">NCT 127 The 4th Album <br>‘질주
+                                        <br>(2 Baddies)’</strong>
+                                        
+                                    </div>
+                                </li>
+                            
+                                <li class="swiper-slide">
+                                    <div>
+                                        <a href="https://www.smtown.com/production/album/11687" target="_blank">
+                                            <img src="https://smtown-cdn.smtown.com/upload/old-data/album/202112/star_61ce06a0c4750.jpg" alt="img"/>
+                                        </a>
+
+                                        <br>
+                                        <br>
+
+                                        <span>2021/12/30</span>
+
+                                        <br>
+
+                                        <strong class="ell2">iScreaM Vol.13 : <br> ‘Sticker’ Remixes</strong>
+                                        
+                                    </div>
+                                </li>
+                            
+                                <li class="swiper-slide">
+                                    <div>
+                                        <a href="https://www.smtown.com/production/album/11682" target="_blank">
+                                            <img src="https://smtown-cdn.smtown.com/upload/album/127bc72c87cd4f5abc29586782529669_2022-02-20-19-38-01.jpg" alt="img"/>
+                                        </a>
+
+                                        <br>
+                                        <br>
+
+                                        <span>2021/12/14</span>
+
+                                        <br>
+
+                                        <strong class="ell2">NCT The 3rd Album <br>‘Universe’</strong>
+                                        
+                                    </div>
+                                </li>
+                            
+                                <li class="swiper-slide">
+                                    <div>
+                                        <a href="https://www.smtown.com/production/album/11672" target="_blank">
+                                            <img src="https://smtown-cdn.smtown.com/upload/album/62936e46b47c4b70954e814653d48ce5_2022-02-20-18-14-55.jpg" alt="img"/>
+                                        </a>
+
+                                        <br>
+                                        <br>
+
+                                        <span>2021/10/25</span>
+
+                                        <br>
+                                        <strong class="ell2">NCT 127 The 3rd Album Repackage ‘Favorite’</strong>
+                                        
+                                   </div>
+                               </li>
+                         </ul>
+                     </div>
+                 </div>
+                            
+                        <div class="pageNav">
+                                
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                                
+                        </div>
+                            
+                    </div>
+                </div>
+            </ul>
+        </center>
+            
+            
+
+            
+            <!-- footer -->
+            <footer class="footer">
+                <p class="infos">&copy; <script>document.write(new Date().getFullYear())</script>, MADE WITH <i class="ti-heart text-danger"></i> BY <a href="https://www.instagram.com/amrhwhdaa/" target="_blank">AMRHWHDA</a></p>       
+                <span style="color: whitesmoke">|</span>  
+                <div class="links">
+                    <a href="https://www.instagram.com/nct127/" target="_blank">INSTAGRAM</a>
+                    <a href="https://twitter.com/NCTsmtown_127" target="_blank">TWITTER</a>
+                    <a href="https://www.tiktok.com/@nct127_thelink_japan" target="_blank">TIKTOK</a>
+                </div>
+            </footer><!-- end of footer -->
+
+        </div><!-- end of container -->
+    </div><!-- end of pre footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Dorang js -->
+    <script src="assets/js/dorang.js"></script>
+
+
+</body>
+</html>
+            

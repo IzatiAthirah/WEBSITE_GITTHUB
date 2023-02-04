@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FNC ENTERTAINMENT</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/firststyle.css">
+
+ 
+  <style>
+    ul  
+    {
+      list-style-type: none;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+      padding: 40px, 40px;
+      height: 5%;
+      width: 90%;
+      text-align: center;
+      font-family: Courier New;
+      background-color: black;
+    }
+
+    li a 
+    {
+      float: left;
+      display: ruby-base-container;
+      padding: 30px;
+      text-decoration: none;
+      color: ivory;
+      text-align: center;
+    }
+
+    li a:hover
+    {
+      background-color: tomato;
+    }
+
+    * {box-sizing: border-box}
+
+    body
+    {
+      background-color: red;
+    }
+
+    .mySlides {display: none;}
+
+    h1
+    {
+      font-family: Georgia;
+      font: bold;
+      text-align: center;
+    }
+
+    h2
+    {
+      font-family: Georgia;
+      font: bold;
+    }
+
+    h3
+    {
+      font-family: Georgia;
+      font: bold;
+    }
+
+    p
+    {
+      font-family: tahoma;
+    }
+
+    * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 400px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  </style>
+
+</head>
+<body>
+
+  <ul>
+    <li><a href="indexgroup1.html" target="blank">Home</a></li>
+    <li><a href="FNC_ENTERTAINMENT.html" target="blank">FNC Entertainment</a></li>
+    <li><a href="about_nflying.html" target="blank">About</a></li>
+    <li><a href="members_nflying.html" target="blank">The Members</a></li>
+    <li><a href="album_nflying.html" target="blank">Albums</a></li>
+    <li><a href="achievements_nflying.html" target="blank">Achievements</a></li>
+  </ul>
+
+  <h1>WELCOME TO FNC ENTERTAINMENT PROFILE</h1>
+
+  <div class="w3-content w3-section"style="max-width:500px">
+    <img class="mySlides" src="images/fnc_ent.png" style="width:100%; height: 300px;">
+    <img class="mySlides" src="images/ftisland.jpg" style="width:100%; height: 300px">
+    <img class="mySlides" src="images/cnblue.jpg" style="width:100%; height: 300px">
+    <img class="mySlides" src="images/aoa.jpg" style="width:100%; height: 300px">
+    <img class="mySlides" src="images/NFLYING_8MAD3.jpg" style="width:100%; height: 300px">
+    <img class="mySlides" src="images/sf9.jpg" style="width:100%; height: 300px;">
+    <img class="mySlides" src="images/cherrybullet.jpg" style="width:100%; height: 300px">
+    <img class="mySlides" src="images/p1harmony.jpg" style="width:100%; height: 300px;">
+  </div>
+
+    <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 4 seconds
+    }
+    </script>
+
+    <h2>The Introduction to FNC Entertainment</h2>
+
+      <div class="row">
+        <div class="column" style="background-color:#FFDEAD;">
+          <h3>History</h3>
+          <p>FNC Entertainment (Korean: FNC 엔터테인먼트; stands for "fish and cake") is a South Korean entertainment company established in 2006 by South Korean singer and record producer Han Seong-ho.<br>
+
+          The label operates as a record label, talent agency, music production company, event management and concert production company, and music publishing house. The label previously known as FNC Music, only managed musicians but later changed its name to FNC Entertainment in 2012 and began to broaden their business field of entertainment. It has since January 2012, been based in its own company offices in Cheongdam-dong.<br>
+
+          The name is based on the miracle of feeding the multitude using only five loaves and the two fish. This is because Han Seong-ho is a devout Christian, he uses the name to hope for more miracles happen for the company.</p>
+        </div>
+        <div class="column" style="background-color:#F4A460;">
+          <h3>Overview</h3>
+          <p>The label is home to prominent musical artists such as rock bands F.T. Island, CNBLUE and N.Flying, and K-pop groups AOA, SF9, Cherry Bullet (under the sub-label FNC W) and P1Harmony.<br>
+
+          It also manages a number of entertainers, including Lee Guk-joo and Lee Se-young, and a number of actors, including Jung Hae-in, Lee Dong-gun, Park Gwang-hyun, Sung Hyuk, Kim Won-hee, and Kim Yeon-seo.<br>
+
+          In February 2021, FNC created two new sub-labels. The first label, FNC B, is a joint venture between FNC Entertainment and HOW Entertainment, which focuses on Trot music. The second label, FNC W, specializes on the management of their girl groups.</p>
+        </div>
+      </div><br>
+
+    <footer>
+      FNC Entertainment - N.FLYING UPDATES@2023 (NADIA)
+    </footer>
+
+</body>
+</html>

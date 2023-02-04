@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>K-POP COMPANY</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<style>
+  body {font-family: "Karma";, sans-serif}
+
+  .w3-bar-block .w3-bar-item {padding:20px}
+  }
+</style>
+
+</head>
+<body>
+   <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:35%;min-width:200px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Main Page</a>
+  <a href="smtown.html" onclick="w3_close()" class="w3-bar-item w3-button">SM ENTERTAINMENT</a>
+  <a href="FNC_ENTERTAINMENT.html" onclick="w3_close()" class="w3-bar-item w3-button">FNC ENTERTAINMENT</a>
+  <a href="KQ ENTERTAINMENT.html" onclick="w3_close()" class="w3-bar-item w3-button">KQ ENTERTAINMENT</a> 
+</nav>
+
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1000px;margin:left">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+  </div>
+</div>
+
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <div class="w3-center">
+  <h4>SOUTH KOREA MUSIC INDUSTRIES COMPANY</h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom">K-POP ENTERTAINMENT AGENCY</h1>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">READ MORE</button>
+    </div>
+  </div>
+</header>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">×</span>
+        <h4>What is K-POP COMPANY?</h4>
+        <h5>Quick Introduction<i class="fa fa-smile-o"></i></h5>
+      </header>
+      <div class="w3-padding">
+        <p>The company or 'agencies' who produced record labels and responsible for recruiting, training, marketing and financing aspiring artists. 
+        <br>They also manage musical activities and public relations of such trainees.
+        <br>It includes styles and genres from around the world, such as pop, hip hop, R&B,
+        <br> experimental, rock, jazz, gospel, reggae, electronic dance, folk, country, disco, 
+        <br>and classical on top of its traditional Korean music roots. 
+        <br>The term "K-pop" became popular in the 2000s, especially in the international context.</p>
+      </div>
+      <footer class="w3-container w3-theme-l1">
+        <p>Got it!</p>
+      </footer>
+    </div>
+</div>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>SM ENTERTAINMENT</h3><br>
+<a href="smtown.html"><img src="IMAGE/logosm.png" style="width:180px;"></a>
+
+<br>
+<br>
+  <p>SM Entertainment  (Korean: SM 엔터테인먼트)
+  <br> is a South Korean multinational entertainment agency 
+  <br>established in 1995 by record executive 
+  <br>and record producer Lee Soo-man. </p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>FNC ENTERTAINMENT</h3><br>
+ <a href="FNC_ENTERTAINMENT.html"><img src="IMAGE/logofnc.png" style="width:180px;"></a>
+  <br>
+  <br>
+  <p>FNC Entertainment (Korean: FNC 엔터테인먼트)
+  <br>is a South Korean entertainment company 
+  <br>established in 2006 by South Korean singer 
+  <br>and record producer Han Seong-ho.</p>
+  </div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card w3-container" style="min-height:460px">
+<h3>KQ ENTERTAINMENT</h3><br>
+<a href=" KQ ENTERTAINMENT.html"><img src="IMAGE/logokq.png" style="width:200px;"></a>
+<br>
+<br>
+<p>KQ Entertainment (Korean: KQ 엔터테인먼트) 
+<br>is a South Korean entertainment
+<br> company established in 2016 by Kim Gyu Uk.</p>
+  </div>
+</div>
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
